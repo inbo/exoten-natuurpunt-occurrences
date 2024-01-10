@@ -1,0 +1,369 @@
+# Dataset: dieren-exoten-natuurpunt-occurrences
+# DOI: https://doi.org/10.15468/k2aiak
+# 
+# Scope: dwc-occurrence
+# Author: Peter Desmet
+# Syntax version: 0.1
+
+id:
+  empty: false
+  # This column is the same as occurrenceID, but added by the IPT
+
+occurrenceID:
+  regex: 'Natuurpunt:Waarnemingen(:\d+)+'
+  # Has to be unique as well
+  # forbidden: 'Natuurpunt:Waarnemingen:63867643' # Tijgermug
+
+type:
+  allowed: Event
+
+language:
+  allowed: en
+
+license:
+  allowed: https://creativecommons.org/licenses/by-nc/4.0/
+
+rightsHolder:
+  allowed: Natuurpunt Studie
+
+accessRights:
+  allowed: http://www.natuurpunt.be/normen-voor-datagebruik
+
+references:
+  regex: 'https:\/\/waarnemingen\.be\/observation\/(\d)+'
+
+datasetID:
+  allowed: https://doi.org/10.15468/k2aiak
+
+institutionCode:
+  allowed: Natuurpunt
+
+collectionCode:
+  allowed: waarnemingen.be
+
+datasetName:
+  allowed: Waarnemingen.be - Non-native animal occurrences in Flanders and the Brussels Capital Region, Belgium
+
+basisOfRecord:
+  allowed: [HumanObservation, MachineObservation]
+  if:
+    - samplingProtocol:
+        allowed: [camera trap, sound trap]
+      allowed: MachineObservation
+
+informationWithheld:
+  allowed: see metadata
+
+# dataGeneralizations:
+# Data have point coordinates and are no longer generalized
+
+dynamicProperties:
+  empty: true
+  stringformat: json
+  allowed:
+    - '{"length":"11-15 cm"}'
+    - '{"length":"16-25 cm"}'
+    - '{"length":"26-40 cm"}'
+    - '{"length":"3-5 cm"}'
+    - '{"length":"6-10 cm"}'
+    - '{"length":"<2 cm"}'
+    - '{"length":">40 cm"}'
+
+individualCount:
+  numberformat: x
+  min: 1
+  max: 1000001 # Considered OK
+
+sex:
+  empty: true
+  allowed: [female, male, female & male]
+# In the past, one could add an observation of 2 individuals without there 
+# being subrecords created. Thus "female & male" is an observation of both 
+# at the same time. When one adds such an observation now, two records are 
+# created, which will also be published as two observations, with the 
+# subrecord number being part of the occurrenceID, see 
+# https://github.com/inbo/data-publication-natuurpunt/issues/84#issuecomment-302646063
+
+lifeStage:
+  empty: true
+  allowed: [adult, caterpillar, chick, egg, imago, juvenile, larva, pupa]
+
+reproductiveCondition:
+  empty: true
+  allowed:
+    - reproductive
+    - queen
+    - unwinged gyne
+    - winged gyne
+    - worker
+
+behavior:
+  empty: true
+  allowed:
+    - aestivating
+    - alarming
+    - attracted to light
+    - calling
+    - chirping # Used instead of singing for Hemiptera
+    - copulating
+    - courtship/mating
+    - distraction display
+    - emerging at dusk # Not in dataset
+    - feeding
+    - flushing
+    - flying # Not in dataset
+    - hibernating
+    - hunting
+    - lactating
+    - laying egg
+    - mating
+    - migrating
+    - migrating east
+    - migrating north
+    - migrating northeast
+    - migrating northwest
+    - migrating south
+    - migrating southeast
+    - migrating southwest
+    - migrating west
+    - moulting
+    - moving east
+    - moving north
+    - moving south
+    - moving west
+    - nest building
+    - parasitized
+    - parasitizing # Not in dataset
+    - passing by # Not in dataset
+    - resting
+    - singing
+    - social behavior
+    - spawning
+    - stridulating # Used instead of singing for Orthoptera
+    - sun basking
+    - swarming
+    - swimming
+    - territorial behavior
+    - transporting feed or faeces
+
+# establishmentMeans
+# Not included, as this is where *observers* indicate if the individual 
+# was escaped or not, which is confusing for an alien species dataset 
+# where all occurrences are considered non-native.
+
+occurrenceRemarks:
+  empty: true
+  delimitedvalues:
+    delimiter: ' | '
+    allowed:
+      - 1st autumn plumage
+      - 1st cycle plumage
+      - 1st summer plumage
+      - 1st winter plumage
+      - 1st year plumage
+      - 2nd cycle plumage
+      - 2nd summer plumage
+      - 2nd winter plumage
+      - 3rd cycle plumage
+      - 3rd winter plumage
+      - 4th cycle plumage
+      - abandoned nest
+      - accidentally introduced # Not in dataset
+      - adult in territory
+      - at sleeping area
+      - barbed wire victim
+      - brachypterous # Not in dataset
+      - carrying eggs externally
+      - catch by cat
+      - colony
+      - colony in trees
+      - colony on building # Not in dataset
+      - deviant form
+      - drowning victim # Not in dataset
+      - eclipse plumage
+      - escaped # Not in dataset
+      # - farmed # Not for animals
+      - found as case
+      - found as cocoon
+      - found as cuticle
+      - found as destroyed nest # Not in dataset
+      - found as egg mass
+      # - found as empty fruit # Not for animals
+      - found as excrements
+      - found as exuviae
+      - found as feeding signs
+      - found as fossil
+      - found as gall
+      - found as nest
+      - found as shell
+      - found as shell with remains
+      - found as shield
+      - found as silk nest # Not in dataset
+      - found as substrate with miner damage
+      - found as tracks
+      - found dead
+      - found in drain # Not in dataset
+      - found in thrush smithy # Not in dataset
+      - found on wind turbine
+      - freshly moulted # Not in dataset
+      # - fruiting body # Not for animals
+      - grown
+      - grown and in collection
+      - grown and released # Not in dataset
+      # - in bud # Not for animals
+      - in collection
+      - in web
+      - injured
+      - latrine
+      - longterm stay
+      - macropterous
+      - maternity colony # Not in dataset
+      - metamorphosing
+      - micropterous # Not in dataset
+      - mixed tandem # Not in dataset
+      - near nest
+      - occupied nest
+      - occupied nest with eggs
+      - occupied nest with young
+      - on drifting object
+      - on feeding place
+      - on or in breeding substrate
+      - pair in territory
+      # - planted # Not for animals
+      - powerline victim
+      - probably nesting place
+      # - propagule # Not for animals 
+      - recently hatched young
+      - recently used nest
+      - road kill
+      - seen while diving
+      # - sown # Not for animals
+      # - sprouting # Not for animals
+      - summer plumage
+      - tagged # Not in dataset
+      # - teleomorph # Not for animals
+      - washed ashore
+      - windfarm victim
+      - window victim
+      - winter plumage
+      - with brood patch
+      - with color ring
+
+samplingProtocol:
+  empty: false
+  allowed:
+    - camera trap # MachineObservation
+    - casual observation
+    - catch
+    - catch and removed
+    - catch and removed | catch # Somewhat odd, but considered OK
+    - catch and removed | seen
+    - catch by electrofishing
+    - catch by fishermen # Not in dataset
+    - catch by fishing rod
+    - catch by hand
+    - catch by hand and collected
+    - catch by hand and released
+    - catch by net
+    - catch by pod
+    - catch by pole
+    - catch by screen
+    - catch by sheer # Not in dataset
+    - catch by shrimp net # Not in dataset
+    - catch by trawl net
+    - colour trap
+    - corrugated plate # Not in dataset
+    - deep drilling # Not in dataset
+    - DNA barcoding
+    - heard
+    - light trap
+    - malaise trap
+    - observation with bat detector
+    - observation with flashlight # Not in dataset
+    - observation with hydrophone # Not in dataset
+    - pellet examination
+    - pellet examination | seen indoors
+    - pheromones bait # Not in dataset
+    - pitfall trap
+    - seen
+    - seen and heard
+    - seen indoors
+    - sheet with light
+    - snorkeling observation
+    - soil sample
+    - sound trap # MachineObservation
+    - specimen collected
+    - specimen collected | pitfall trap
+    - spotlight
+    - sugar bait
+    - telemetry searching
+    - thermal imaging scope # Recently added
+    - track bed
+    - unspecified trap
+
+eventDate:
+  dateformat: ['%Y-%m-%d'] # YYYY-MM-DD
+  mindate: 1900-01-14
+  # maxdate: Republished every month
+
+continent:
+  allowed: Europe
+
+countryCode:
+  allowed: BE
+
+stateProvince:
+  allowed: [Antwerp, Brussels Capital Region, East Flanders, Flemish Brabant, Limburg, West Flanders]
+
+municipality:
+  empty: false
+
+decimalLatitude:
+  numberformat: '.5'
+  min: 50.67 # SE Flanders
+  max: 51.51 # NW Belgium
+
+decimalLongitude:
+  numberformat: '.5'
+  min: 2.53 # NW Belgium
+  max: 5.94 # SE Flanders
+
+geodeticDatum:
+  allowed: WGS84
+
+coordinateUncertaintyInMeters:
+  empty: true # A limited number of records do not have this information
+  numberformat: x
+  min: 1
+  max: 1000
+
+identificationVerificationStatus:
+  allowed: [approved on expert judgement, approved on knowledge rules, approved on photographic evidence, unverified]
+
+identificationRemarks:
+  empty: true
+  allowed:
+    - microscopic examination
+
+taxonID:
+  regex: 'https:\/\/waarnemingen\.be\/species\/(\d)+'
+
+scientificName:
+  empty: false
+  # forbidden: Anthropoides virgo # Jufferkraanvogel = Grus virgo
+  # forbidden: Anas platyrhynchos # No "wilde eend"
+
+kingdom:
+  allowed: Animalia
+
+taxonRank:
+  allowed: [species, subspecies, variety, forma, multispecies, hybrid]
+
+scientificNameAuthorship:
+  empty: true
+
+vernacularName:
+  empty: true
+
+nomenclaturalCode:
+  allowed: ICZN

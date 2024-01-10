@@ -1,0 +1,190 @@
+# Dataset: planten-exoten-natuurpunt-occurrences
+# DOI: https://doi.org/10.15468/smdvdo
+# 
+# Scope: dwc-occurrence
+# Author: Peter Desmet
+# Syntax version: 0.1
+
+id:
+  empty: false
+  # This column is the same as occurrenceID, but added by the IPT
+
+occurrenceID:
+  regex: 'Natuurpunt:Waarnemingen(:\d+)+'
+  # Has to be unique as well
+
+type:
+  allowed: Event
+
+language:
+  allowed: en
+
+license:
+  allowed: https://creativecommons.org/licenses/by-nc/4.0/
+
+rightsHolder:
+  allowed: Natuurpunt Studie
+
+accessRights:
+  allowed: http://www.natuurpunt.be/normen-voor-datagebruik
+
+references:
+  regex: 'https:\/\/waarnemingen\.be\/observation\/(\d)+'
+
+datasetID:
+  allowed: https://doi.org/10.15468/smdvdo
+
+institutionCode:
+  allowed: Natuurpunt
+
+collectionCode:
+  allowed: waarnemingen.be
+
+datasetName:
+  allowed: Waarnemingen.be - Non-native plant occurrences in Flanders and the Brussels Capital Region, Belgium
+
+basisOfRecord:
+  allowed: HumanObservation
+
+informationWithheld:
+  allowed: see metadata
+
+# dataGeneralizations:
+# Data have point coordinates and are no longer generalized
+
+individualCount:
+  numberformat: x
+  min: 1
+  max: 100000000 # Considered OK: https://github.com/inbo/data-publication-natuurpunt/issues/203
+
+sex:
+  empty: true
+  allowed:
+    - female
+    - male
+    - female & male # Considered OK, even if plant: https://github.com/inbo/data-publication-natuurpunt/issues/93
+
+reproductiveCondition:
+  empty: true
+  allowed:
+    - dead aboveground material
+    - flowering
+    - fruit-bearing
+    - reproductive
+    - seedling
+    - spore-bearing
+    - sprouting
+    - vegetative
+
+behavior:
+  empty: true
+  allowed: parasitizing
+
+# establishmentMeans
+# Not included, as this is where *observers* indicate if the individual 
+# was escaped or not, which is confusing for an alien species dataset 
+# where all occurrences are considered non-native.
+
+occurrenceRemarks:
+  empty: true
+  delimitedvalues:
+    delimiter: ' | '
+    allowed:
+      - accidentally introduced
+      - anamorph
+      - deviant form
+      - escaped
+      - farmed
+      - found as empty fruit
+      - found as gall
+      - fruiting body
+      - grown
+      - grown and in collection # Not in dataset
+      - grown and released # Not in dataset
+      - in bud
+      - in collection
+      - mycelium
+      - planted
+      - propagule
+      - seen while diving # Not in dataset
+      - sown
+      - sprouting # Not in dataset
+      - teleomorph
+      - washed ashore
+
+samplingProtocol:
+  empty: false
+  allowed:
+    - DNA barcoding
+    - casual observation
+    - catch and removed
+    - catch by hand and collected
+    - seen
+    - specimen collected
+
+eventDate:
+  dateformat: ['%Y-%m-%d'] # YYYY-MM-DD
+  mindate: 1859-06-30 # Considered OK
+  # maxdate: Republished every month
+
+continent:
+  allowed: Europe
+
+countryCode:
+  allowed: BE
+
+stateProvince:
+  allowed: [Antwerp, Brussels Capital Region, East Flanders, Flemish Brabant, Limburg, West Flanders]
+
+municipality:
+  empty: false
+
+decimalLatitude:
+  numberformat: '.5'
+  min: 50.67 # SE Flanders
+  max: 51.51 # NW Belgium
+
+decimalLongitude:
+  numberformat: '.5'
+  min: 2.53 # NW Belgium
+  max: 5.94 # SE Flanders
+
+geodeticDatum:
+  allowed: WGS84
+
+coordinateUncertaintyInMeters:
+  empty: false
+  numberformat: x
+  min: 1
+  max: 1000
+
+identificationVerificationStatus:
+  allowed: [approved on expert judgement, approved on knowledge rules, approved on photographic evidence, unverified]
+
+identificationRemarks:
+  empty: true
+  allowed: microscopic examination
+
+taxonID:
+  regex: 'https:\/\/waarnemingen\.be\/species\/(\d)+'
+
+scientificName:
+  empty: false
+
+kingdom:
+  allowed:
+    - Plantae
+    - Chromista # 2 species
+    - Fungi # 1 species
+
+taxonRank:
+  allowed: [species, subspecies, variety, forma, cultivar, multispecies, hybrid]
+
+scientificNameAuthorship:
+  empty: true
+
+vernacularName:
+  empty: true
+
+nomenclaturalCode:
+  allowed: ICBN
