@@ -1,16 +1,18 @@
 # Waarnemingen.be - Non-native animal and plant occurrences in Flanders and the Brussels Capital Region, Belgium
 
-This repository is about the datasets _Non-native animal occurrences_ and _Non-native plant occurrences_ derived from https://waarnemingen.be. Natuurpunt manages and validates the source data, INBO provides technical support in publishing it to [GBIF](https://www.gbif.org/).
-
-**Data are published automatically** (on a weekly basis): the IPT is set to auto-publication and will read the latest data directly from a Natuurpunt server. This repo is only for periodic validation and reporting data quality issues.**
+This repository is about the datasets _Non-native animal occurrences_ and _Non-native plant occurrences_ derived from https://waarnemingen.be. Natuurpunt manages and validates the source data, INBO provides technical support in publishing these to [GBIF](https://www.gbif.org/).
 
 ## Useful links
 
-- [Animal dataset on the IPT](https://ipt.inbo.be/resource?r=dieren-exoten-natuurpunt-occurrences)
-- [Animal dataset on GBIF](https://doi.org/10.15468/k2aiak)
-- [Plant dataset on the IPT](https://ipt.inbo.be/resource?r=planten-exoten-natuurpunt-occurrences)
-- [Plant dataset on GBIF](https://doi.org/10.15468/smdvdo)
+- [Animals dataset on the IPT](https://ipt.inbo.be/resource?r=dieren-exoten-natuurpunt-occurrences)
+- [Animals dataset on GBIF](https://doi.org/10.15468/k2aiak)
+- [Plants dataset on the IPT](https://ipt.inbo.be/resource?r=planten-exoten-natuurpunt-occurrences)
+- [Plants dataset on GBIF](https://doi.org/10.15468/smdvdo)
 - [Reported issues](https://github.com/inbo/exoten-natuurpunt-occurrences/issues)
+
+## Workflow
+
+**Data are published automatically** on a weekly basis. The IPT is set to auto-publication and will read the latest data directly from a Natuurpunt server. This repo is only for periodic validation and reporting data quality issues.
 
 ## Repo structure
 
