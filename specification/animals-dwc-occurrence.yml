@@ -344,6 +344,7 @@ identificationRemarks:
   empty: true
   allowed:
     - microscopic examination
+    - genitals examined
 
 taxonID:
   regex: 'https:\/\/waarnemingen\.be\/species\/(\d)+'
