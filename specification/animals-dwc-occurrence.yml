@@ -275,6 +275,7 @@ samplingProtocol:
     - corrugated plate # Not in dataset
     - deep drilling # Not in dataset
     - DNA barcoding
+    - flight interception trap
     - heard
     - light trap
     - malaise trap
