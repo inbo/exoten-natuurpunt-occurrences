@@ -55,7 +55,7 @@ informationWithheld:
 individualCount:
   numberformat: x
   min: 1
-  max: 100000000 # Considered OK: https://github.com/inbo/data-publication-natuurpunt/issues/203
+  max: 1000000000 # Considered OK: https://github.com/inbo/natuurpunt-exoten-occurrences/issues/6
 
 sex:
   empty: true
