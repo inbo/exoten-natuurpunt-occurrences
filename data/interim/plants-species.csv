@@ -7,6 +7,7 @@ https://waarnemingen.be/species/10064,Chaerophyllum aureum,species,Gouden ribzaa
 https://waarnemingen.be/species/10065,Artemisia verlotiorum,species,Herfstalsem
 https://waarnemingen.be/species/10071,Aronia x prunifolia (A. arbutifolia x A. melanocarpa),hybrid,Appelbes
 https://waarnemingen.be/species/10093,Silene coronaria,species,Prikneus
+https://waarnemingen.be/species/1013825,Heterobasidion irregulare,species,Dennenmoordenaar
 https://waarnemingen.be/species/1013890,Rhus typhina (cultivar),cultivar,Azijnboom (cultivar)
 https://waarnemingen.be/species/1013891,Tanacetum parthenium (cultivar),cultivar,Moederkruid (cultivar)
 https://waarnemingen.be/species/1013954,Cytisus scoparius (cultivar),cultivar,Brem (cultivar)
@@ -34,6 +35,7 @@ https://waarnemingen.be/species/1027440,Campanula persicifolia (cultivar),variet
 https://waarnemingen.be/species/1029430,Plantae indet. (cultivated indoors),multispecies,Kamerplant onbekend
 https://waarnemingen.be/species/1029431,Plantae indet. (cultivated outdoors),multispecies,Tuinplant onbekend
 https://waarnemingen.be/species/1032423,Bellis perennis (cultivar),cultivar,Madeliefje (cultivar)
+https://waarnemingen.be/species/1033914,Oenothera x crispata (O. glazioviana x O. oehlkersii),hybrid,Grote teunisbloem x Bleke teunisbloem
 https://waarnemingen.be/species/1033951,Juncus effusus (cultivar),cultivar,Pitrus (cultivar)
 https://waarnemingen.be/species/104556,Chenopodium opulifolium,species,Sneeuwbalganzenvoet
 https://waarnemingen.be/species/104558,Euphorbia humifusa,species,Liggende wolfsmelk
@@ -100,9 +102,9 @@ https://waarnemingen.be/species/117753,Euphorbia chamaesyce,species,Kleinste wol
 https://waarnemingen.be/species/117757,Euphorbia characias,species,Vroege wolfsmelk
 https://waarnemingen.be/species/117758,Euphorbia characias subsp. characias,subspecies,Vroege wolfsmelk s.s.
 https://waarnemingen.be/species/117759,Euphorbia characias subsp. wulfenii,subspecies,Zuiderse wolfsmelk
+https://waarnemingen.be/species/117857,Ferula communis,species,Tonderkervel
 https://waarnemingen.be/species/117987,Fraxinus americana,species,Amerikaanse es
 https://waarnemingen.be/species/117988,Fraxinus angustifolia,species,Smalbladige es
-https://waarnemingen.be/species/118191,Gentiana asclepiadea,species,Zijdeplantgentiaan
 https://waarnemingen.be/species/118271,Geranium divaricatum,species,Uitgespreide ooievaarsbek
 https://waarnemingen.be/species/118277,Gilia achilleifolia,species,Gilia
 https://waarnemingen.be/species/118278,Gilia capitata,species,Hoofdjesgilia
@@ -116,7 +118,6 @@ https://waarnemingen.be/species/118921,Ilex crenata,species,Japanse hulst
 https://waarnemingen.be/species/118942,Ipomoea coccinea,species,Scharlakenwinde
 https://waarnemingen.be/species/119009,Juglans cinerea,species,Grijze walnoot
 https://waarnemingen.be/species/119110,Kalmia angustifolia,species,Smalle lepelboom
-https://waarnemingen.be/species/119177,Laburnum alpinum,species,Alpengoudenregen
 https://waarnemingen.be/species/119212,Lantana camara,species,Wisselbloem
 https://waarnemingen.be/species/119266,Malva pseudolavatera,species,Cretenser lavatera
 https://waarnemingen.be/species/119547,Linum austriacum,species,Oostenrijks vlas
@@ -162,10 +163,10 @@ https://waarnemingen.be/species/123779,Arundo donax,species,Pijlriet
 https://waarnemingen.be/species/123968,Juncus tenuis subsp. dudleyi,subspecies,Samengetrokken rus
 https://waarnemingen.be/species/124029,Triticum durum,species,Harde tarwe
 https://waarnemingen.be/species/124070,Trifolium echinatum,species,Uitgespreide klaver
-https://waarnemingen.be/species/124107,Carpobrotus edulis,species,Hottentotvijg
 https://waarnemingen.be/species/124144,Salix eleagnos,species,Grijze wilg
 https://waarnemingen.be/species/124449,Tagetes erecta,species,Groot afrikaantje
 https://waarnemingen.be/species/124521,Salix eriocephala,species,Amerikaantje
+https://waarnemingen.be/species/124627,Colocasia esculenta,species,Taro
 https://waarnemingen.be/species/124912,Cotoneaster fangianus,species,Fangs cotoneaster
 https://waarnemingen.be/species/125339,Allium fistulosum,species,Grof bieslook
 https://waarnemingen.be/species/125359,Cenchrus flaccidus,species,Slank lampenpoetsergras
@@ -174,7 +175,6 @@ https://waarnemingen.be/species/125655,Dicentra formosa,species,Gebroken hartje
 https://waarnemingen.be/species/125675,Trachycarpus fortunei,species,Chinese waaierpalm
 https://waarnemingen.be/species/125701,Gaudinia fragilis,species,Gaudinia
 https://waarnemingen.be/species/125728,Cotoneaster franchetii,species,Franchets cotoneaster
-https://waarnemingen.be/species/125812,Argyranthemum frutescens,species,Heestermargriet
 https://waarnemingen.be/species/125823,Perilla frutescens,species,Japanse munt
 https://waarnemingen.be/species/125847,Amorpha fruticosa,species,Valse indigo
 https://waarnemingen.be/species/125908,Polypogon fugax,species,IJl baardgras
@@ -242,6 +242,7 @@ https://waarnemingen.be/species/132121,Omphalodes linifolia,species,Witte onschu
 https://waarnemingen.be/species/132312,Helleborus argutifolius,species,Corsicaans nieskruid
 https://waarnemingen.be/species/132319,Echinocystis lobata,species,Stekelaugurk
 https://waarnemingen.be/species/132333,Valerianella locusta var. oleracea,variety,Tuinveldsla
+https://waarnemingen.be/species/132422,Pulmonaria longifolia,species,Langbladig longkruid
 https://waarnemingen.be/species/132547,Diospyros lotus,species,Dadelpruim
 https://waarnemingen.be/species/132648,Prunus lusitanica,species,Portugese laurierkers
 https://waarnemingen.be/species/132743,Odontites luteus,species,Gele ogentroost
@@ -407,7 +408,6 @@ https://waarnemingen.be/species/145365,Triticum spelta,species,Spelt
 https://waarnemingen.be/species/145436,Amelanchier spicata,species,Dwergkrentenboompje
 https://waarnemingen.be/species/145441,Liatris spicata,species,Liatris
 https://waarnemingen.be/species/145454,Mentha spicata subsp. glabrata,subspecies,Groene munt
-https://waarnemingen.be/species/145493,Paliurus spina-christi,species,Echte christusdoorn
 https://waarnemingen.be/species/145562,Acanthus spinosus,species,Doornige acanthus
 https://waarnemingen.be/species/145594,Salvia splendens,species,Vuursalie
 https://waarnemingen.be/species/145690,Bromus squarrosus,species,Rappige dravik
@@ -439,7 +439,6 @@ https://waarnemingen.be/species/148316,Gilia tricolor,species,Driekleurige gilia
 https://waarnemingen.be/species/148358,Malope trifida,species,Drielobbige malope
 https://waarnemingen.be/species/148386,Ptelea trifoliata,species,Hopboom
 https://waarnemingen.be/species/148418,Malva trimestris,species,Grootbloemige lavatera
-https://waarnemingen.be/species/148773,Triticum turgidum,species,Engelse tarwe
 https://waarnemingen.be/species/149144,Silene uniflora,species,Kustsilene
 https://waarnemingen.be/species/149163,Ipheion uniflorum,species,Voorjaarsster
 https://waarnemingen.be/species/149694,Lathyrus vernus,species,Voorjaarslathyrus
@@ -660,6 +659,7 @@ https://waarnemingen.be/species/196635,Erythronium spec.,multispecies,Hondstand 
 https://waarnemingen.be/species/196637,Eschscholzia spec.,multispecies,Slaapmutsje spec.
 https://waarnemingen.be/species/196643,Ficus spec.,multispecies,Vijgenboom spec.
 https://waarnemingen.be/species/196662,Calendula spec.,multispecies,Goudsbloem spec.
+https://waarnemingen.be/species/196669,Guizotia spec.,multispecies,Guizotia spec.
 https://waarnemingen.be/species/196684,Tsuga spec.,multispecies,Hemlockspar spec.
 https://waarnemingen.be/species/196691,Hibiscus spec.,multispecies,Hibiscus spec.
 https://waarnemingen.be/species/196705,Trigonella spec.,multispecies,Hoornklaver spec.
@@ -724,7 +724,7 @@ https://waarnemingen.be/species/197692,Celastrus spec.,multispecies,Boomwurger s
 https://waarnemingen.be/species/197696,Cercis spec.,multispecies,Judasboom spec.
 https://waarnemingen.be/species/197697,Chaenomeles spec.,multispecies,Dwergkwee spec.
 https://waarnemingen.be/species/197721,Commelina spec.,multispecies,Commelina spec.
-https://waarnemingen.be/species/197723,Erigeron x foucaudii (E. bonariensis x E. canadensis),hybrid,Gevlamde fijnstraal x Canadese fijnstraal
+https://waarnemingen.be/species/197723,Erigeron x pseudocrispus (E. bonariensis x E. canadensis),hybrid,Gevlamde fijnstraal x Canadese fijnstraal
 https://waarnemingen.be/species/197724,Coreopsis spec.,multispecies,Luizenbloem spec.
 https://waarnemingen.be/species/197725,Cortaderia spec.,multispecies,Pampagras spec.
 https://waarnemingen.be/species/197726,Cotoneaster villosulus,species,Harige cotoneaster
@@ -736,7 +736,7 @@ https://waarnemingen.be/species/198296,Elaeagnus x submacrophylla (E. macrophyll
 https://waarnemingen.be/species/198472,Doronicum x excelsum (D. columnae x D. pardalianches x D. plantagineum),hybrid,Hoge voorjaarszonnebloem
 https://waarnemingen.be/species/198473,Doronicum x willdenowii (?D. pardalianches x D. plantagineum),hybrid,Willdenows voorjaarszonnebloem
 https://waarnemingen.be/species/198474,Dracocephalum spec.,multispecies,Drakenkop spec.
-https://waarnemingen.be/species/198477,Echinops banaticus,species,Blauwe kogeldistel
+https://waarnemingen.be/species/198477,Echinops bannaticus,species,Blauwe kogeldistel
 https://waarnemingen.be/species/198643,Cucumis dipsaceus,species,Distelkomkommer
 https://waarnemingen.be/species/198808,Parthenium hysterophorus,species,Schijnambrosia
 https://waarnemingen.be/species/198972,Gunnera spec.,multispecies,Gunnera spec.
@@ -810,6 +810,7 @@ https://waarnemingen.be/species/212268,Caryopteris x clandonensis (C. incana x C
 https://waarnemingen.be/species/212551,Tithonia rotundifolia,species,Tithonia
 https://waarnemingen.be/species/212654,Muhlenbergia mexicana,species,Satijngras
 https://waarnemingen.be/species/212905,Rumex x confusus (R. crispus x R. patientia),hybrid,Krulzuring x Spinaziezuring
+https://waarnemingen.be/species/21484,Himanthalia elongata,species,Riemwier
 https://waarnemingen.be/species/232668,Miscanthus spec.,multispecies,Prachtriet spec.
 https://waarnemingen.be/species/233024,Astilbe spec.,multispecies,Astilbe spec.
 https://waarnemingen.be/species/2345,Anthoxanthum aristatum,species,Slofhak
@@ -823,6 +824,7 @@ https://waarnemingen.be/species/235202,Liriodendron spec.,multispecies,Tulpenboo
 https://waarnemingen.be/species/235225,Passiflora edulis,species,Paarse passiebloem
 https://waarnemingen.be/species/235226,Pelargonium spec.,multispecies,Tuingeranium spec.
 https://waarnemingen.be/species/235229,Pennisetum spec.,multispecies,Borstelveergras spec.
+https://waarnemingen.be/species/235232,Phleum exaratum,species,Grieks doddegras
 https://waarnemingen.be/species/235233,Phlox spec.,multispecies,Vlambloem spec.
 https://waarnemingen.be/species/235243,Populus alba + Populus x canescens,multispecies,Witte abeel + Grauwe abeel
 https://waarnemingen.be/species/235244,Populus x jackii (P. balsamifera x P. deltoides),hybrid,Ontariopopulier x Amerikaanse populier
@@ -851,6 +853,7 @@ https://waarnemingen.be/species/236291,Gleditsia spec.,multispecies,Christusdoor
 https://waarnemingen.be/species/236371,Hamamelis spec.,multispecies,Toverhazelaar spec.
 https://waarnemingen.be/species/236383,Hebe spec.,multispecies,Hebe spec.
 https://waarnemingen.be/species/236391,Helenium spec.,multispecies,Helenium spec.
+https://waarnemingen.be/species/236401,Hepatica spec.,multispecies,Leverbloempje spec.
 https://waarnemingen.be/species/236447,Hydrangea spec.,multispecies,Hortensia spec.
 https://waarnemingen.be/species/236520,Kalanchoe spec.,multispecies,Kalanchoë spec.
 https://waarnemingen.be/species/236524,Kalmia spec.,multispecies,Lepelboom spec.
@@ -881,6 +884,7 @@ https://waarnemingen.be/species/237483,Symphyotrichum spec.,multispecies,Herfsta
 https://waarnemingen.be/species/237515,Tellima spec.,multispecies,Tellima spec.
 https://waarnemingen.be/species/237543,Thunbergia spec.,multispecies,Thunbergia spec.
 https://waarnemingen.be/species/237559,Tolmiea spec.,multispecies,Kinderplant spec.
+https://waarnemingen.be/species/237615,Tropaeolum spec.,multispecies,Klimkers spec.
 https://waarnemingen.be/species/237668,Weigela spec.,multispecies,Weigelia spec.
 https://waarnemingen.be/species/237701,Zinnia spec.,multispecies,Zinnia spec.
 https://waarnemingen.be/species/237758,Wolffia australiana,species,Smalle wolffia
@@ -953,7 +957,6 @@ https://waarnemingen.be/species/26916,Malus spec. (cultivar),multispecies,Appel 
 https://waarnemingen.be/species/26990,Cotoneaster bullatus,species,Grote boogcotoneaster
 https://waarnemingen.be/species/270628,Galanthus x valentinei (G. nivalis x G. plicatus),hybrid,Gewoon sneeuwklokje x Geplooid sneeuwklokje
 https://waarnemingen.be/species/27128,Forsythia spec.,multispecies,Chinees klokje spec.
-https://waarnemingen.be/species/27167,Euphorbia esula subsp. tommasiniana,subspecies,Roedewolfsmelk
 https://waarnemingen.be/species/27236,Pimpinella peregrina,species,Vreemde bevernel
 https://waarnemingen.be/species/2726,Sagina alexandrae,species,Priemvetmuur
 https://waarnemingen.be/species/2729,Salvia verbenaca,species,Kleinbloemige salie
@@ -1073,6 +1076,7 @@ https://waarnemingen.be/species/643741,Hordeum distichon subsp. distichon,subspe
 https://waarnemingen.be/species/6438,Anthriscus cerefolium,species,Echte kervel
 https://waarnemingen.be/species/6440,Antirrhinum majus,species,Grote leeuwenbek
 https://waarnemingen.be/species/6441,Apera interrupta,species,Stijve windhalm
+https://waarnemingen.be/species/644104,Favolaschia calocera,species,Oranje poriezwam
 https://waarnemingen.be/species/644193,Hyacinthoides hispanica + Hyacinthoides x massartiana,multispecies,Spaanse hyacint + Basterdhyacint
 https://waarnemingen.be/species/644245,Verbascum x angulosum (V. nigrum x V. speciosum),hybrid,Zwarte toorts x Kandelaartoorts
 https://waarnemingen.be/species/644389,Salix babylonica 'Tortuosa',cultivar,Krulwilg
@@ -1182,7 +1186,6 @@ https://waarnemingen.be/species/674279,Hordeum vulgare subsp. vulgare,subspecies
 https://waarnemingen.be/species/6747,Eragrostis minor,species,Klein liefdegras
 https://waarnemingen.be/species/6748,Eragrostis pilosa s.l.,species,Straatliefdegras
 https://waarnemingen.be/species/6749,Eranthis hyemalis,species,Winterakoniet
-https://waarnemingen.be/species/6750,Erica herbacea,species,Sneeuwhei
 https://waarnemingen.be/species/6754,Erigeron annuus,species,Zomerfijnstraal
 https://waarnemingen.be/species/6755,Erigeron karvinskianus,species,Muurfijnstraal
 https://waarnemingen.be/species/6759,Eruca vesicaria,species,Zwaardherik
@@ -1362,6 +1365,7 @@ https://waarnemingen.be/species/7200,Pistia stratiotes,species,Watersla
 https://waarnemingen.be/species/7201,Pisum sativum,species,Erwt
 https://waarnemingen.be/species/7202,Plantago arenaria,species,Zandweegbree
 https://waarnemingen.be/species/721227,Phacelia campanularia,species,Dichte phacelia
+https://waarnemingen.be/species/721381,Grateloupia turuturu,species,Slijmerige drakentong
 https://waarnemingen.be/species/721397,Salix x fragilis var. basfordiana,variety,Basford-basterdkraakwilg
 https://waarnemingen.be/species/7215,Polemonium caeruleum,species,Jakobsladder
 https://waarnemingen.be/species/7216,Polycarpon tetraphyllum,species,Kransmuur
@@ -1373,6 +1377,7 @@ https://waarnemingen.be/species/7228,Pontederia cordata,species,Moerashyacint
 https://waarnemingen.be/species/7229,Populus alba,species,Witte abeel
 https://waarnemingen.be/species/7230,Populus deltoides,species,Amerikaanse populier
 https://waarnemingen.be/species/7231,Populus balsamifera,species,Ontariopopulier
+https://waarnemingen.be/species/723177,Xanthium strumarium,species,Late stekelnoot
 https://waarnemingen.be/species/7234,Portulaca oleracea,species,Postelein
 https://waarnemingen.be/species/7251,Potentilla indica,species,Schijnaardbei
 https://waarnemingen.be/species/7252,Potentilla intermedia,species,Middelste ganzerik
@@ -1399,6 +1404,7 @@ https://waarnemingen.be/species/7305,Reseda alba,species,Witte reseda
 https://waarnemingen.be/species/7311,Rhododendron luteum,species,Pontische azalea
 https://waarnemingen.be/species/7312,Rhododendron ponticum,species,Pontische rododendron
 https://waarnemingen.be/species/7313,Rhus typhina,species,Azijnboom
+https://waarnemingen.be/species/7314,Rhus radicans,species,Gifsumak
 https://waarnemingen.be/species/7319,Ricinus communis,species,Wonderboom
 https://waarnemingen.be/species/7322,Rorippa austriaca,species,Oostenrijkse kers
 https://waarnemingen.be/species/7329,Rosa gallica,species,Franse roos
@@ -1511,6 +1517,7 @@ https://waarnemingen.be/species/7627,Veronica peregrina,species,Vreemde ereprijs
 https://waarnemingen.be/species/7628,Veronica persica,species,Grote ereprijs
 https://waarnemingen.be/species/7636,Vicia faba,species,Tuinboon
 https://waarnemingen.be/species/7637,Vicia grandiflora,species,Grote wikke
+https://waarnemingen.be/species/7639,Vicia hybrida,species,Basterdwikke
 https://waarnemingen.be/species/7641,Vicia lutea,species,Gele wikke
 https://waarnemingen.be/species/7642,Vicia pannonica,species,Hongaarse wikke
 https://waarnemingen.be/species/7646,Vicia villosa,species,Bonte wikke
@@ -1533,16 +1540,17 @@ https://waarnemingen.be/species/802047,Iris x hollandica (I. tingitana x I. xiph
 https://waarnemingen.be/species/80209,Ceratonia siliqua,species,Johannesbroodboom
 https://waarnemingen.be/species/80211,Limonium sinuatum,species,Bochtig lamsoor
 https://waarnemingen.be/species/802234,Lonicera periclymenum (cultivar),cultivar,Wilde kamperfoelie (cultivar)
+https://waarnemingen.be/species/80230,Quercus suber,species,Kurkeik
 https://waarnemingen.be/species/80231,Quercus ilex,species,Steeneik
 https://waarnemingen.be/species/802340,Onopordum x beckianum (O. acanthium x O. illyricum),hybrid,Tuinwegdistel
 https://waarnemingen.be/species/802382,Lilium x hollandicum (L. bulbuferum x L. maculatum),hybrid,Boerenlelie
+https://waarnemingen.be/species/802410,Desmarestia ligulata,species,Plat azijnwier
 https://waarnemingen.be/species/80249,Heliotropium europaeum,species,Europese heliotroop
 https://waarnemingen.be/species/80251,Ecballium elaterium,species,Springkomkommer
 https://waarnemingen.be/species/802546,Populus balsamifera + Populus trichocarpa,multispecies,Ontariopopulier + Zwarte balsempopulier
 https://waarnemingen.be/species/802570,x Nemesia spec.,multispecies,Nemesia hybriden
 https://waarnemingen.be/species/802571,Oenothera x albivelutina (O. fallax x O. glazioviana),hybrid,Gestreepte teunisbloem x Grote teunisbloem
 https://waarnemingen.be/species/802656,Prunus domestica subsp. syriaca,subspecies,Mirabel
-https://waarnemingen.be/species/80301,Agave americana,species,Honderdjarige aloë
 https://waarnemingen.be/species/804055,Chenopodium x reynieri (C. album x C. giganteum),hybrid,Melganzenvoet x Boomspinazie
 https://waarnemingen.be/species/80561,Melampyrum nemorosum,species,Paarse hengel
 https://waarnemingen.be/species/80562,Hepatica nobilis,species,Leverbloempje
@@ -1581,6 +1589,7 @@ https://waarnemingen.be/species/910048,Anisantha rigida,species,Stijve hoge drav
 https://waarnemingen.be/species/911306,Lonicera nitida + Lonicera pileata,multispecies,Buxuskamperfoelie + Struikkamperfoelie
 https://waarnemingen.be/species/9126,Papaver cambricum,species,Schijnpapaver
 https://waarnemingen.be/species/913780,Cichorium intybus var. foliosum,variety,Witlof
+https://waarnemingen.be/species/914038,Erica carnea,species,Sneeuwhei
 https://waarnemingen.be/species/9161,Veronica spicata,species,Aarereprijs
 https://waarnemingen.be/species/9162,Paulownia tomentosa,species,Anna Paulownaboom
 https://waarnemingen.be/species/9163,Brunnera macrophylla,species,Kaukasisch vergeet-mij-nietje
